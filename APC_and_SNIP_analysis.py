@@ -6,6 +6,7 @@ import pandas as pd
 df = pd.read_excel('df_cwts.xlsx')
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     dcc.Graph(id='graph-with-slider'),
