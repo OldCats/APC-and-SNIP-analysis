@@ -1,0 +1,13 @@
+name: dash-plotly
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pandas
+  - numpy
+  - dash
+  - plotly
+  - nbserverproxy
+  - pip
+  - pip:
+    - jupyter-server-proxy

@@ -3,7 +3,7 @@ import plotly.express as px
 
 import pandas as pd
 
-df = pd.read_excel('df_cwts.xlsx')
+df = pd.read_csv('df_cwts.csv')
 
 app = Dash(__name__)
 server = app.server
