@@ -1,1 +1,2 @@
-python APC_and_SNIP_analysis.py
+#!/usr/bin/env bash
+jupyter lab build --minimize=False
