@@ -9,6 +9,7 @@ dependencies:
   - pip
   - pip:
     - jupyter-server-proxy
+    - jupyter-dash
     - dash==2.6.1
     - dash-auth==1.4.1
     - dash-core-components==2.0.0
